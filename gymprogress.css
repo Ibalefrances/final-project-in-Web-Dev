@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+
+body {
+    background-size: cover;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+main {
+    color: rgb(253, 251, 251);
+}
+
+header {
+    background-color: #31304D;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    width: 50px;
+}
+
+.aimage{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h1{
+    color: #F0ECE5;
+}
+
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: #F0ECE5;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 30px;
+}
+
+button{
+    background-color: rgb(187, 201, 229);
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F0ECE5;
+    color:#161A30;
+    transition: .1s;
+}
+
+.background{
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1540496905036-5937c10647cc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.container{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+}
+
+.container h1{
+    color: black;
+
+}
+
+.programs{
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    margin: auto;
+    margin: 10px 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px;
+    color: #F0ECE5;
+}
+
+.p-container:hover{
+    transition: 0.5s;
+    scale: 1.12;
+    background-color: #31304D;
+}
+
+.programs h3{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}

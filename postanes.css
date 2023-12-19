@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-image:url(/white.avif);
+}
+
+.register{
+    background-image: url(https://img.freepik.com/premium-photo/clothes-concept_670147-3465.jpg);
+}
+
+.login-container{
+    width: 320px;
+    height: auto;
+    color: #1B4242;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+
+}
+
+.register-container{
+    color: #9EC8B9;
+}
+
+.register-container input{
+    background-color: #1B4242;
+    color: white;
+}
+
+.register-container button{
+    background-color:#9EC8B9;
+    color: black;
+}
+
+.register-container a{
+    color: #9EC8B9;
+}
+form *{
+    outline: none;
+    border: none;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    width: 96%;
+    margin: 10px 0;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    text-align: center;
+    background-color:  #9EC8B9;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    color: #1B4242;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 52px;
+    background-color: #B6BBC4;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.link:hover{
+    color:black;
+}

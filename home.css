@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+}
+
+
+body {
+    background-size: cover;
+    overflow: hidden;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+
+
+main {
+    color: rgb(253, 251, 251);
+}
+
+header {
+    background-color: #31304D;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    width: 50px;
+}
+
+.aimage{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h1{
+    color: #F0ECE5;
+}
+
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: #F0ECE5;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 30px;
+}
+
+button{
+    background-color: rgb(187, 201, 229);
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F0ECE5;
+    color:#161A30;
+    transition: .1s;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702339200&semt=ais);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.text-container{
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    position: relative; 
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+.text2{
+    color: #f0f0e8;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    background-color: #333333d5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.images{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.image{
+    width: 22%;
+    height: 100%;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.555), -2px -2px 4px rgba(255, 255, 255, 0.646);
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}

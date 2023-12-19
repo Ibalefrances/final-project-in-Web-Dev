@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">            
+    <script src="script.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="background registerbg">
+        <form class="login-container" id="signup" onsubmit="validate()" action="http://127.0.0.1/francis/signup.php" method="post">
+            <h1>REGISTER</h1>
+                <input type="text" name="name" id="username" autocomplete="off" placeholder="Enter Username" required>
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="Enter Email" required>
+                <input type="password" name="password" id="password" placeholder="Enter Password" autocomplete="off" required>
+            <button>Register</button>
+        <a class="link" href="Login.html">Login Here</a>
+    </form>
+    </div>
+</body>
+</html>
